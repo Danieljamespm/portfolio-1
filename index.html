@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <img src="images/no-border.JPG" alt="John Doe" class="profile-img">
+                <h1>Danny Mettler</h1>
+                <p class="tagline">Crafting digital experiences with code</p>
+                <a href="#contact" class="cta-button">Get in touch</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a passionate software developer with a knack for creating elegant solutions in the least amount of time. When I'm not coding, you can find me exploring new technologies or contributing to open-source projects.</p>
+            <div class="interactive-bio">
+                <button id="show-more-btn">Show More</button>
+                <p id="more-bio" class="hidden">I have a background in computer science and have been working in the industry for over 5 years. My expertise lies in full-stack web development, but I'm always eager to learn new technologies and frameworks.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="JavaScript"><i class="fab fa-js"></i>JavaScript</div>
+                <div class="skill-card" data-skill="React"><i class="fab fa-react"></i>React</div>
+                <div class="skill-card" data-skill="Node.js"><i class="fab fa-node"></i>Node.js</div>
+                <div class="skill-card" data-skill="HTML5"><i class="fab fa-html5"></i>HTML5</div>
+                <div class="skill-card" data-skill="CSS3"><i class="fab fa-css3-alt"></i>CSS3</div>
+                <div class="skill-card" data-skill="SQL"><i class="fas fa-database"></i>MongoDB</div>
+                <div class="skill-card" data-skill="Git"><i class="fab fa-git-alt"></i>Git</div>
+            </div>
+            <div id="skill-details" class="hidden">
+                <h3>Skill Details</h3>
+                <p id="skill-description"></p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Locksmithing Website</h3>
+                    <p>A mobile friendly website for a Locksmithing company using HTML, CSS, and Javascript</p>
+                    <a href="http://www.surelockhomeslocksmith.com" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Task Management App</h3>
+                    <p>A responsive task manager built with React and Firebase.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Weather Forecast App</h3>
+                    <p>Real-time weather updates using JavaScript and OpenWeatherMap API.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A showcase of my work built with modern HTML5 and CSS3.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-links">
+                <a href="mailto:john.doe@example.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://www.linkedin.com/in/johndoe" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/johndoe" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
